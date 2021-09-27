@@ -1,5 +1,7 @@
 <!-- Basic Markdown Notes -->
 
+<a name="top"></a>
+
 This is a simple Markdown cheatsheet.
 
 <!-- Headings -->
@@ -96,7 +98,7 @@ This is a
 
 <!-- Images -->
 
-![Random Dog](https://random.dog/12297f35-1812-4a63-9e17-64dd05c7a759.jpg)
+![Random Dog](https://random.dog/12297f35-1812-4a63-9e17-64dd05c7a759.jpg){class="img-fluid"}
 
 <!-- Github Specific Markdown Tricks -->
 
@@ -118,3 +120,4 @@ fib(1000)
 * [x] Task 2 
 * [ ] Task 3 
 
+<button id="myBtn"><a href="#top" style="color: white">/\\ Top /\\</a></button>

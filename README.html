@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Markdown Notes</title>
+
+    	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+		crossorigin="anonymous">
+
+<style>
+body {
+	max-width: 1200px;
+	padding: 10px;
+}
+
+#myBtn {
+	position: fixed;
+	right: 30px;
+	bottom: 10px;
+	font-size: 12px;
+	border-color: rgba(85, 85, 85, 0.2);
+	background-color: rgb(100,100,100);
+}
+</style>
+
+</head>
+<body>
+<!-- Basic Markdown Notes -->
+<p><a name="top"></a></p>
+<p>This is a simple Markdown cheatsheet.</p>
+<!-- Headings -->
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<!-- Spacing -->
+<h2 id="spacing">Spacing</h2>
+<p>Instead of &lt;p&gt; tags, Markdown uses empty lines between sentances to denote new paragraphs.</p>
+<p>For example, this is a new paragraph!</p>
+<p>Otherwise newlines, spaces, and tabs are ignored.</p>
+<!-- Italics -->
+<p><em>Word</em> in italics</p>
+<p>Another <em>word</em> in italics</p>
+<!-- Strong -->
+<p><strong>This text</strong> is strong</p>
+<p><strong>This text</strong> is also strong</p>
+<!-- Strikethrough -->
+<p><del>This text</del> is striken through</p>
+<!-- Horizontal Rule -->
+<hr />
+<hr />
+<!-- Escaped Characters -->
+<p>__init__.py</p>
+<p>**NOT STRONG TEXT**</p>
+<!-- Block Quote -->
+<blockquote>
+<p>This is a quote!</p>
+</blockquote>
+<!-- Links -->
+<p><a href="http://example.com/">Example Link</a></p>
+<p><a href="http://example.com/" title="Hover Text">Example Link</a></p>
+<!-- Unordered Lists -->
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3
+<ul>
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+</ul></li>
+</ul>
+<!-- Ordered Lists -->
+<ol type="1">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3
+<ol type="1">
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+</ol></li>
+</ol>
+<!-- Inline Codeblock -->
+<p><code>&lt;p&gt;Preformatted Text&lt;/p&gt;</code></p>
+<!-- Multi-line Codeblock -->
+<pre><code>This is a 
+    multi-line 
+        block of 
+            preformatted text</code></pre>
+<!-- Images -->
+<figure>
+<img src="https://random.dog/12297f35-1812-4a63-9e17-64dd05c7a759.jpg" alt="Random Dog" class="img-fluid" /><figcaption>Random Dog</figcaption>
+</figure>
+<!-- Github Specific Markdown Tricks -->
+<!-- Syntax Highlighted Multi-line Codeblocks -->
+<pre class="python3"><code>def fib(n):
+    a, b = 0, 1
+    while a &lt; n:
+        print(a, end=&#39; &#39;)
+        a, b = b, a+b
+    print()
+fib(1000)</code></pre>
+<!-- Task Lists -->
+<ul>
+<li>[x] Task 1</li>
+<li>[x] Task 2</li>
+<li>[ ] Task 3</li>
+</ul>
+<button id="myBtn">
+<a href="#top" style="color: white">/\ Top /\</a>
+</button>
+</body>
+</html>
